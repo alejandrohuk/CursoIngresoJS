@@ -12,9 +12,12 @@ function Mostrar()
 	{
 		if(edad >18) 
 		{
-			alert(es adulto);
+			alert("es adulto");
 		}		
 		else
+		{
+			alert("adolescente");
+		}
 
 	}
 
