@@ -23,6 +23,7 @@ function Mostrar()
     var porcentaje7;
     var porcentaje8;
     var porcentaje9;
+    var iteracion;
 
 
 	for( numero=0; numero<100; numero++ )
@@ -66,8 +67,9 @@ function Mostrar()
 	}
 
 	}
-	porcentaje0=
-	document.write()
+	porcentaje0=((contador0/(contador+1))*100/100;
+	porcentaje0=Math.round(porcentaje0);
+	document.write("<br>0: " + contador0 +"--"+porcentaje0+"% : ");
 
 	document.write("<br>" + contador0)
 	document.write("<br>" + contador1)
