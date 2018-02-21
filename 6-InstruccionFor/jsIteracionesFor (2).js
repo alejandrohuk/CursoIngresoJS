@@ -13,6 +13,17 @@ function Mostrar()
     var contador7=0;
     var contador8=0;
     var contador9=0;
+    var porcentaje0;
+    var porcentaje1;
+    var porcentaje2;
+    var porcentaje3;
+    var porcentaje4;
+    var porcentaje5;
+    var porcentaje6;
+    var porcentaje7;
+    var porcentaje8;
+    var porcentaje9;
+
 
 	for( numero=0; numero<100; numero++ )
 	{
@@ -30,7 +41,9 @@ function Mostrar()
 		contador2++;
 		break;
 		case 3:
+
 		contador3++;
+
 		break;
 		case 4:
 		contador4++;
@@ -53,6 +66,8 @@ function Mostrar()
 	}
 
 	}
+	porcentaje0=
+	document.write()
 
 	document.write("<br>" + contador0)
 	document.write("<br>" + contador1)
