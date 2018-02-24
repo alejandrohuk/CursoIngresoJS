@@ -27,7 +27,7 @@ document.getElementById('promedio').value=acumulador/contador;*/
 	var  acumulador=0;
 	var respuesta=true;
 
-	while(respuesta=true)
+	while(respuesta==true)
 	{
 		numero= prompt("ingrese un numero");
 		numero=parseInt(numero);
