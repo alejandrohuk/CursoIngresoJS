@@ -1,7 +1,7 @@
 function Mostrar()
 {
 
-	var contador=0;
+	/*var contador=0;
 	var acumulador=0;
 	var numero;
 	
@@ -17,6 +17,70 @@ function Mostrar()
 
 
 document.getElementById('suma').value=acumulador;
-document.getElementById('promedio').value=acumulador/5;
+document.getElementById('promedio').value=acumulador/5;*/
+
+
+
+	var contador=0;
+	var acumulador=0;
+	var numero;
+
+	while(contador<5)
+	{
+		
+
+
+		contador++;
+
+
+		numero=prompt("ingrese un numero");
+			numero = parseInt(numero);
+		while(numero<1 || numero>10)
+		{
+			numero=prompt("reingrese un numero");
+			numero = parseInt(numero);
+		}
+
+		
+		acumulador = acumulador + numero;
+
+
+	}
+	document.getElementById("suma").value=acumulador;
+	document.getElementById("promedio").value=acumulador/5;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }//FIN DE LA FUNCIÓN
